@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+  <!--
+  we add a first item which is hidden by default
+-->
+  <item
+    android:id="@+id/profile"
+    android:icon="@drawable/ic_baseline_person_24"
+    android:title="@string/my_profile"
+    app:showAsAction="ifRoom"
+    />
+
+  <!--
+    we add a second item which is hidden by default
+  -->
+  <item
+    android:id="@+id/order"
+    android:title="@string/order_users"
+    app:showAsAction="never"
+    />
+
+  <!--
+    we add a third item which is hidden by default
+  -->
+  <item
+    android:id="@+id/noOrder"
+    android:title="@string/no_order_users"
+    app:showAsAction="never"
+    />
+  <item android:title="Quit" />
+</menu>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">My Real Estate Agency</string>
+
+    // Strings adding user
+    <string name="name">Name</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="address">Address</string>
+    <string name="about_me">About me</string>
+    <string name="save">Save</string>
+
+    // Users Menu strings
+    <string name="order_users">Order agents</string>
+    <string name="no_order_users">Remove order</string>
+    <string name="menu_user_sort_asc">Sort agent by ascending</string>
+    <string name="menu_user_sort_des">Sort agent by descending</string>
+    <string name="menu_user_sort_no">No sort</string>
+
+    // Properties Menu strings
+    <string name="menu_property_sort_id_asc">Sort index ascending</string>
+    <string name="menu_property_sort_id_des">Sort index descending</string>
+    <string name="menu_property_no_sort">Sort according to the date entered</string>
+    <string name="menu_property_sort_type_house">Only display House</string>
+    <string name="menu_property_sort_type_flat">Only display Flat</string>
+    <string name="menu_property_sort_type_office">Only display Office</string>
+    <string name="menu_property_sort_type_student">Only display Student Room</string>
+    <string name="menu_property_price_asc">Sort Price ascending</string>
+    <string name="menu_property_price_des">Sort Price descending</string>
+    <string name="menu_property_surface_asc">Sort Surface ascending</string>
+    <string name="menu_property_surface_des">Sort Surface descending</string>
+
+    // Menu Quit
+    <string name="menu_quit">Quit</string>
+
+    <string name="login">Login</string>
+    <string name="my_profile">My profile</string>
+
+    <string name="cannot_add_property">Some fields are empty. Cannot add the property</string>
+    <string name="cannot_modify_property">Cannot modify the property</string>
+    <string name="cannot_edit_property">You cannot edit this property, it is not yours!</string>
+    <string name="cannot_delete_property">You cannot delete this property, it is not yours!</string>
+
+    <string name="cannot_get_gps">Cannot get GPS coordinates, please check the exact address or enter the coordinates</string>
+    <string name="cannot_get_gps_add_empty">"Address is empty. Cannot get its GPS coordinates"</string>
+
+    // Strings about user
+    <string name="avatar_desc">Click on to upload a photo</string>
+    <string name="user_list">List of agents</string>
+    <string name="user_add">Add an agent</string>
+    <string name="user_edit">Modify an agent</string>
+    <string name="user_view">View an agent</string>
+    <string name="user_not_selected">No agent selected</string>
+    <string name="cannot_add_user">Some fields are empty, verify you have upload an avatar by clicking on the circle. Cannot add the agent</string>
+    <string name="cannot_modify_user">Cannot modify the agent</string>
+
+    // Strings about property
+    <string name="property_list">List of properties</string>
+    <string name="property_detail">Property detail</string>
+    <string name="property_add">Add a property</string>
+    <string name="property_edit">Edit a property</string>
+    <string name="property_search">Search criteria</string>
+    <string name="property_not_selected">No property selected.</string>
+    <string name="property_result_search">Result of Search</string>
+
+    // Strings about Search
+    <string name="search_property_type_no_check">No property type checked!</string>
+    <string name="search_property_status_no_check">No property status checked!</string>
+    <string name="search_property_price_max_inf_min">Max price must be higher than the min price</string>
+    <string name="search_property_surface_max_inf_min">Max surface must be higher than the min surface</string>
+    <string name="search_property_room_max_inf_min">Max rooms must be higher than the min rooms</string>
+
+    // Error strings
+    <string name="error_title">Error</string>
+    <string name="warning_title">Warning</string>
+    <string name="info_title">Information</string>
+
+    // Simulator strings
+    <string name="loan_simulator">Loan simulator</string>
+    <string name="property_price">Property price:</string>
+    <string name="financial_contribution">Financial contribution:</string>
+    <string name="loan_rate">Loan rate:</string>
+    <string name="loan_duration">Loan duration (in months):</string>
+    <string name="simulate">Simulate</string>
+    <string name="monthly_payment">Monthly payment:</string>
+    <string name="total_payments">Total payments:</string>
+    <string name="credit_cost">Credit cost:</string>
+
+    // Maps string
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="spinner_type">
+        <item>House</item>
+        <item>Flat</item>
+        <item>Office</item>
+        <item>Student Room</item>
+    </string-array>
+
+    <string-array name="spinner_status">
+        <item>Not Sold</item>
+        <item>Sold</item>
+    </string-array>
+
+</resources>

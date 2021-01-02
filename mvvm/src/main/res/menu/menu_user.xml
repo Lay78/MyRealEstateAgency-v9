@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    we add a first item which is hidden by default
+  -->
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/my_profile"
+        app:showAsAction="ifRoom" />
+
+    <!--
+      we add a second item which is hidden by default
+    -->
+    <item
+        android:id="@+id/sortUserAsc"
+        android:title="@string/menu_user_sort_asc"
+        app:showAsAction="never" />
+
+    <!--
+      we add a third item which is hidden by default
+    -->
+    <item
+        android:id="@+id/sortUserDes"
+        android:title="@string/menu_user_sort_des"
+        app:showAsAction="never" />
+
+    <!--
+      we add a fourth item which is hidden by default
+    -->
+    <item
+        android:id="@+id/noSortUser"
+        android:title="@string/menu_user_sort_no"
+        app:showAsAction="never" />
+
+    <!--
+        we add a fifth item which is hidden by default
+    -->
+    <item
+        android:id="@+id/menu_user_quit"
+        android:title="@string/menu_quit"
+        app:showAsAction="never" />
+</menu>

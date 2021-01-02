@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    we add a first item which is hidden by default
+  -->
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/my_profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/sortIdAsc"
+        android:title="@string/menu_property_sort_id_asc"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortIdDes"
+        android:title="@string/menu_property_sort_id_des"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortId"
+        android:title="@string/menu_property_no_sort"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortHouse"
+        android:title="@string/menu_property_sort_type_house"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortFlat"
+        android:title="@string/menu_property_sort_type_flat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortOffice"
+        android:title="@string/menu_property_sort_type_office"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortStudent"
+        android:title="@string/menu_property_sort_type_student"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortPriceAsc"
+        android:title="@string/menu_property_price_asc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortPriceDes"
+        android:title="@string/menu_property_price_des"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortSurfaceAsc"
+        android:title="@string/menu_property_surface_asc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortSurfaceDes"
+        android:title="@string/menu_property_surface_des"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_prop_quit"
+        android:title="@string/menu_quit" />
+</menu>
