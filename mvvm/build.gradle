@@ -36,6 +36,7 @@ dependencies {
     implementation project(path: ':bridge')
     implementation 'com.github.livefront:bridge:v1.3.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
     annotationProcessor 'androidx.room:room-compiler:2.2.6'
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
