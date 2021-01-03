@@ -54,10 +54,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Initialize fused location
         client = LocationServices.getFusedLocationProviderClient(this);
 
-
-
-
-        getCurrentLocation();
     }
 
     /**
@@ -87,6 +83,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(efrei).title("Marker in EFREI"));
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(efrei));
 
+        getCurrentLocation();
 
     }
 
